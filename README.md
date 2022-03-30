@@ -12,8 +12,13 @@
 
 ## Ideas for the Project
 
+1. Team portfolio site that focuses on advertising yourselves as a web development company.
+2. Tech site (blogs about new tech and updates to existing coding languages)
+3. 
+
 
 ## Our Roles: 
+ 
 [Fetch API]- Group collaberation
 
 [Frontend]-Hyeju
@@ -26,13 +31,31 @@
 
 [Style]- Skies (regular css)
 
-[GitHub Repo]- 
-https://github.com/Skies966/multipage-website/
+[GitHub]- Doesn't matter 
+[GitHub Repo](https://github.com/Skies966/multipage-website)
 
 [plugins and modules] - 
 
 
+
+
 ## Tasks:
+
 [x] Create a group charter
 [x]planning out 
 [] Project from GitHub.
+
+
+
+## Content population requirements: 
+
+1. Logo/company name
+2. color
+3. navbar (styling)
+4. cards
+5. images 
+6. fonts 
+7. headers **(h1,h2 Whatever)**
+8. Paragraphs
+9. Article -**note: we should put background border when we put articles.**
+10. Buttons/input form. 
