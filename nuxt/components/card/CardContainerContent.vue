@@ -15,7 +15,7 @@
 
 <script setup>
 
-  const props = ({
+  const props = ({ 
   title: String,
   button: String, //InputEvent
   bgtext: String,
