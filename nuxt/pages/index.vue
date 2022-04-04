@@ -9,8 +9,8 @@
     <ArticleContent>
     </ArticleContent>
 
-    <!-- <CardContainer>
-    </CardContainer> -->
+    <CardContainer>
+    </CardContainer>
 
     <TheFooter>
     </TheFooter>

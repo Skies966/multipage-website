@@ -1,26 +1,29 @@
 <template>
   <div class ="card-item-container">
+      
     <div class="card-item-top">
-      <img :src="props.src" class="card-item-image">
+      <img :src="product.src" class="card-item-image">
     </div>
     <div class="card-item-bottom">
-      <h3 class="card-item-title"> {{props.title}}</h3>
-      <p class="card-item-text">{{props.bgtext}}</p>
+      <h3 class="card-item-title"> {{product.title}}</h3>
+      <p class="card-item-text">{{product.bgtext}}</p>
       <a href="#" target="_blank">
-        <button class="card-item-button"> {{props.button}}  </button>
+        <button class="card-item-button"> {{product.button}}  </button>
       </a>
     </div>
   </div>
 </template>
 
 <script setup>
-
-  const props = ({ 
-  title: String,
-  button: String, //InputEvent
-  bgtext: String,
-  src: Object,
-})
+export default {
+    name: 'post',
+    props: ['product'],
+    data () {
+      return {
+        description: 'A blog post about some stuff'
+      }
+    },
+  }
 
 
   
