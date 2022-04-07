@@ -4,13 +4,11 @@
       <h1>Lorem, ipsum dolor.</h1>
     </div>
     <div class="card-container">
-      <CardContainerContent 
-        :title="products[0].title"
-        :bgtext ="products[0].bgtext"
-        :src ="products[0].src"
-        :button ="products[0].button"  
+      <CardContainerContent v-for="x in products" :key="x.id" :product="x"
       >
+      {{x}}
       </CardContainerContent>
+
     </div>
     <div class="products-area-logo">
       <img src="" alt="">
@@ -20,34 +18,28 @@
 </template>
 
 <script setup>
-
-const products = ([
-
-        {
-          title: 'Lorem, ipsum.',
-          button: 'Lorem, ipsum.',
-          bgtext: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ullam?',
-          src: require('../../assets/images/snake1.jpg'),
-        },
-        {
-          title: 'Lorem, ipsum.',
-          button: 'Lorem, ipsum.',
-          bgtext: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ullam?',
-          src: require('../../assets/images/snake1.jpg'),
-        },
-        {
-          title: 'Lorem, ipsum.',
-          button: 'Lorem, ipsum.',
-          bgtext: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ullam?',
-          src: require('../../assets/images/snake1.jpg'),
-        },
-        {
-          title: 'Lorem, ipsum.',
-          button: 'Lorem, ipsum.',
-          bgtext: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ullam?',
-          src: require('../../assets/images/snake1.jpg'),
-        }
-])
+// Place content here
+ export default {
+    data () {
+      return {
+      products: [
+      {
+        title: 'Global Warmings Effect on Animals',
+        button: 'Learn More!',
+        bgtext: 'The animals on Earth have taken a toll due to global warming',
+        src: require('../../assets/images/polar-bear.jpg'),
+        page: ("../../animal"),
+        
+      },
+      {
+        title: 'Global Warmings Effect on the Environment',
+        button: 'Learn More!',
+        bgtext: 'The Environment is dying at an alarming rate, is it too late to reverse it?',
+        src: require('../../assets/images/forest-burning.jpg'),
+         page: ("../../environment"),
+      }
+    ]}
+  }}
 </script>
 
 <style>
@@ -61,7 +53,7 @@ const products = ([
   text-align: center;
   gap: 1rem;
 
-  background-color: grey;
+  background-color: rgba(128, 128, 128, 0.555);
   text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.15);
   height: 100%;
   position: relative;
@@ -71,6 +63,7 @@ display: grid;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 gap: 1.5rem;
 border: 1rem;
+font : 5rem;
 
 }
 

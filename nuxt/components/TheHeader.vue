@@ -2,14 +2,16 @@
   <div>
     <nav class="navbar">
       <div class="brand-title">
-          <p>Lorem</p>
-          <img src="" alt="">
+          <NuxtLink to="/" class="brand-title-item"> Vibrance 
+          <img src="../assets/images/gw-logo.svg" alt="Vibrance Logo"></NuxtLink>
+          
       </div>
       <div class="navbar-links">
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">History</a></li>
+          <NuxtLink to="/about"> About </NuxtLink>
+          <NuxtLink to="/animal"> Animals </NuxtLink>
+          <NuxtLink to="/environment"> Environment </NuxtLink>
+
         </ul>
       </div>
     </nav>
@@ -27,15 +29,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: lightgrey;
+    color: black;
 
   }
 
   .brand-title {
     display: block;
   }
+  .brand-title-item {
+    display: flex;
+  }
 
+  .brand-title img {
+    width: 100%;
+    max-width: 50px;
+  }
 
   .navbar-links {
     margin-right: 5%;

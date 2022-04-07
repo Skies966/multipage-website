@@ -18,8 +18,20 @@
 </template>
 
 
+<<<<<<< HEAD
 <script setup>
 </script>
 
 <style scoped>
+=======
+<script>
+export default {
+  name: 'AnimalPage',
+}
+</script>
+
+
+<style scoped>
+
+>>>>>>> 4c1cf40729352e108be15f02b8cb8b4fe0031660
 </style>
