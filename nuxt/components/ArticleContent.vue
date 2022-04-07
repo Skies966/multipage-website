@@ -11,11 +11,9 @@
 Global warming occurs when carbon dioxide(CO2) collects in the atmosphere and absorbs sunlight and solar radiation. These pollutions trap the heat in the atmosphere, causing the world to get hotter. These heat trapping pollutants are called greenhouse gasses.(<a href="https://www.nrdc.org/stories/global-warming-101">NRDC Global Warming</a>) The increase of burning fossil fuels, and the clearing of forests and huge fields for housing and industry plants in the twenty-first century is a huge contributor to the world's temperature rising at a faster pace than ever seen before. 
 </p>
       <div class="article-image-container">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/2014-06-20_Vulpes_vulpes_vulpes%2C_B%C3%B6nhamn%2C_V%C3%A4sternorrlands_L%C3%A4n%2C_Sverige_1.jpg/800px-2014-06-20_Vulpes_vulpes_vulpes%2C_B%C3%B6nhamn%2C_V%C3%A4sternorrlands_L%C3%A4n%2C_Sverige_1.jpg" alt="">
+      
   </div>
-  <h2>Animals of on the plannet</h2>
-  <p>The earth getting global warming you need to save the earth and animal on the plannets.</p>
-  <button>Click here to learn more</button>
+  
     </div>
     </div>
   </template>
@@ -34,7 +32,7 @@ Global warming occurs when carbon dioxide(CO2) collects in the atmosphere and ab
 }
 
 .article-content {
-  display: flex;
+ 
   justify-content: space-around;
   align-items: stretch;
 }

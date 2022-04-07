@@ -8,9 +8,9 @@
       </div>
       <div class="navbar-links">
         <ul>
-          <NuxtLink to="/about"> About </NuxtLink>
-          <NuxtLink to="/animal"> Animals </NuxtLink>
-          <NuxtLink to="/environment"> Environment </NuxtLink>
+          <NuxtLink to="/about" class="li"> About </NuxtLink>
+          <NuxtLink to="/animal" class="li"> Animals </NuxtLink>
+          <NuxtLink to="/environment" class="li"> Environment </NuxtLink>
 
         </ul>
       </div>
@@ -55,20 +55,21 @@
     display: flex;
   }
 
-  .navbar-links li {
+  .navbar-links .li {
     list-style: none;
-    
+    justify-content: space-between;
   }
 
-  .navbar-links a {
+  .navbar-links .li a {
     text-decoration: none;
     color: white;
     padding:5px;
+    
   }
   /* Hover  */
-  .navbar-links a:hover{
+  .navbar-links .li:hover{
     color: blue;
   }
-
+ 
 
 </style>

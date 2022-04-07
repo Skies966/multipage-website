@@ -58,5 +58,12 @@ font-size: 20px;
 
 
 }
+button {
+
+background-color: white;
+border-radius: 10px;
+width:20px;
+
+}
 
 </style>
