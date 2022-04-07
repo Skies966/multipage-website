@@ -20,7 +20,7 @@ export default {
     props: ['product'],
     data () {
       return {
-        description: 'A blog post about some stuff'
+        description: 'A card component'
       }
     },
   }
