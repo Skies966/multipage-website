@@ -60,7 +60,7 @@
     justify-content: space-between;
   }
 
-  .navbar-links .li a {
+  .navbar-links .li {
     text-decoration: none;
     color: white;
     padding:5px;
