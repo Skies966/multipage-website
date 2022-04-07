@@ -4,7 +4,7 @@
       <h1>What is Global Warming? </h1>
     </div>
     <div class="article-content">
-      <p> The Earth's temperature has been rising slowly due to pollution and rising carbon dioxide emissions. Since the 19th century, the earths temperature has risen 1 degree celsius, or 2 degrees fahrenheit. According to NASA, most of this warming has occurred in the last 40 years, with the last 7 years being the warmest (<a href="https://climate.nasa.gov/evidence/">NASA Climate</a>).
+      <p> The Earth's temperature has been rising slowly due to pollution and rising carbon dioxide emissions. Since the 19th century, the earth's temperature has risen 1 degree celsius, or 2 degrees fahrenheit. According to NASA, most of this warming has occurred in the last 40 years, with the last 7 years being the warmest (<a href="https://climate.nasa.gov/evidence/">NASA Climate</a>).
       </p>
       <h2>What is Causing Global Warming?</h2>
       <p>

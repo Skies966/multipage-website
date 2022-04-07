@@ -27,13 +27,13 @@
         title: 'Lorem, ipsumsssssssssssssssssssssssssssssssssssssssssssssssss.',
         button: 'Lorem, ipsumasaaaaaaas.',
         bgtext: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ullam?sss',
-        src: require('../../assets/images/snake1.jpg'),
+        src: require('../../assets/images/polar-bear.jpg'),
       },
       {
         title: 'Lorem, ipsumsssssssssssssssssssssssssssssssssssssssssssssssss.',
         button: 'Lorem, ipsumasaaaaaaas.',
         bgtext: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ullam?sss',
-        src: require('../../assets/images/snake1.jpg'),
+        src: require('../../assets/images/forest-burning.jpg'),
       }
     ]}
   }}
