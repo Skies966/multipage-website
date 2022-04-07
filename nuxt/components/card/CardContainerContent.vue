@@ -5,7 +5,7 @@
       <img :src="product.src" class="card-item-image">
     </div>
     <div class="card-item-bottom">
-      <h3 class="card-item-title"> {{product.title}}</h3>
+      <h3 class="card-item-title"><b> {{product.title}} </b></h3>
       <p class="card-item-text">{{product.bgtext}}</p>
       <a v-bind:href= product.page>
         <button class="card-item-button" > {{product.button}}  </button>
@@ -53,6 +53,10 @@ export default {
   display: block;
   width: 100%;
 }
+.card-item-title {
+font-size: 20px;
 
+
+}
 
 </style>

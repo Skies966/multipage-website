@@ -16,6 +16,8 @@ Global warming occurs when carbon dioxide(CO2) collects in the atmosphere and ab
   <h2>Animals of on the plannet</h2>
   <p>The earth getting global warming you need to save the earth and animal on the plannets.</p>
   <button>Click here to learn more</button>
+    </div>
+    </div>
   </template>
  <style lang="postcss" scoped>
  </style>

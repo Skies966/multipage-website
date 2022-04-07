@@ -3,6 +3,7 @@
         <a class="index" href="#">Home</a>
         <a class="animal" href="#">animal</a>
         <a class="support" href="#">support</a>
+        </div>
 </template>
 
 <style scoped>

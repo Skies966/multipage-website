@@ -26,6 +26,7 @@ export default {
     // as part of generating a unique fetchKey.
     return this.someOtherData + getCounter('sidebar')
   }
+}
 
 </script>
 

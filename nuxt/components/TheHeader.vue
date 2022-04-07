@@ -57,15 +57,18 @@
 
   .navbar-links li {
     list-style: none;
+    
   }
 
   .navbar-links li a {
     text-decoration: none;
     color: white;
+    padding:5px;
   }
   /* Hover  */
   .navbar-links li a:hover{
     color: blue;
   }
+
 
 </style>
