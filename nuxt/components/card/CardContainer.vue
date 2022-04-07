@@ -50,7 +50,7 @@
   text-align: center;
   gap: 1rem;
 
-  background-color: grey;
+  background-color: rgba(128, 128, 128, 0.555);
   text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.15);
   height: 100%;
   position: relative;
