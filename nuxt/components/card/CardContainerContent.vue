@@ -7,8 +7,8 @@
     <div class="card-item-bottom">
       <h3 class="card-item-title"> {{product.title}}</h3>
       <p class="card-item-text">{{product.bgtext}}</p>
-      <a href="#" target="_blank">
-        <button class="card-item-button"> {{product.button}}  </button>
+      <a v-bind:href= product.page>
+        <button class="card-item-button" > {{product.button}}  </button>
       </a>
     </div>
   </div>

@@ -18,10 +18,12 @@
 </template>
 
 
-<script setup>
-
-
+<script>
+export default {
+  name: 'AnimalPage',
+}
 </script>
+
 
 <style scoped>
 

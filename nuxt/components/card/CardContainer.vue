@@ -24,16 +24,19 @@
       return {
       products: [
       {
-        title: 'Lorem, ipsumsssssssssssssssssssssssssssssssssssssssssssssssss.',
-        button: 'Lorem, ipsumasaaaaaaas.',
-        bgtext: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ullam?sss',
+        title: 'Global Warmings Effect on Animals',
+        button: 'Learn More!',
+        bgtext: 'The animals on Earth have taken a toll due to global warming',
         src: require('../../assets/images/polar-bear.jpg'),
+        page: ("../../animal"),
+        
       },
       {
-        title: 'Lorem, ipsumsssssssssssssssssssssssssssssssssssssssssssssssss.',
-        button: 'Lorem, ipsumasaaaaaaas.',
-        bgtext: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ullam?sss',
+        title: 'Global Warmings Effect on the Environment',
+        button: 'Learn More!',
+        bgtext: 'The Environment is dying at an alarming rate, is it too late to reverse it?',
         src: require('../../assets/images/forest-burning.jpg'),
+         page: ("../../environment"),
       }
     ]}
   }}
