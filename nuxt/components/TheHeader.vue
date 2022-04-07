@@ -60,13 +60,13 @@
     
   }
 
-  .navbar-links li a {
+  .navbar-links a {
     text-decoration: none;
     color: white;
     padding:5px;
   }
   /* Hover  */
-  .navbar-links li a:hover{
+  .navbar-links a:hover{
     color: blue;
   }
 
