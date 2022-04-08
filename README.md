@@ -36,9 +36,6 @@
 
 [plugins and modules] - 
 
-
-
-
 ## Tasks:
 
 [x] Create a group charter
@@ -59,3 +56,9 @@
 8. Paragraphs
 9. Article -**note: we should put background border when we put articles.**
 10. Buttons/input form. 
+
+## framework: 
+
+![group project](https://user-images.githubusercontent.com/56320722/162553253-c1699c6b-d733-4f7a-b130-77c6ede4ddd7.png)
+
+
