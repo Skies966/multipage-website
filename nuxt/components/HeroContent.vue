@@ -26,9 +26,9 @@
     </g>
   </svg>
             </div>
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, nemo!</p> <!-- Hero Text -->
+          <p> Subscribe to our page to help save the earth, and get some benefits along the way!</p> <!-- Hero Text -->
           <form action="../../subscribe">
-          <button> CTA button</button> <!-- CTA Button -->
+          <button> Subscribe</button> <!-- CTA Button -->
           </form>
       </div>
     </div>
@@ -57,9 +57,16 @@ width: 100%;
 }
 
 .HeroText button {
-background-color: blue;
+background-color: aquamarine;
+border-radius: 10px;
+width:100px;
 }
-
+.HeroText button:hover {
+background-color: blue;
+border-radius: 10px;
+width:100px;
+color:white;
+}
 
 .HeroText p {
   color: blue;

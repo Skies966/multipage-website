@@ -45,6 +45,18 @@ font-size:22px;
 line-height:50px;
 text-align: center;
 }
+.subscribe-button:hover {
+padding:0;
+margin: 0 auto;
+background-color: blue;
+width:150px;
+height:50px;
+border-radius: 10px;
+font-size:22px;
+line-height:50px;
+text-align: center;
+color:white;
+}
 .perks {
 width:55%;
 
