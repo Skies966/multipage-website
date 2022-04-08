@@ -27,7 +27,9 @@
   </svg>
             </div>
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, nemo!</p> <!-- Hero Text -->
+          <form action="../../subscribe">
           <button> CTA button</button> <!-- CTA Button -->
+          </form>
       </div>
     </div>
   </div>
@@ -45,6 +47,7 @@ display: flex;
 justify-content: flex-start;
 align-items: center;
 text-align: center;
+margin: auto;
 width: 100%;
 }
 
@@ -64,13 +67,15 @@ background-color: blue;
 
 /* SVG Styles */
 svg {
-  display:block ;
+  display:block;
   width: 100%;
+  
 }
 
 .svg-logo-container {
   width: 100%;
   max-width: 250px;
+
   /* margin: 1rem; */
 }
 .HeroText:hover #curve1, .HeroText:hover #curve3 {

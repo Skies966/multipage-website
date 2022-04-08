@@ -59,7 +59,7 @@
     list-style: none;
     justify-content: space-between;
      text-decoration: none;
-    color: white;
+    color: black;
     padding:5px;
     
   }

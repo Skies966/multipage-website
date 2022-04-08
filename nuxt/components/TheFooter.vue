@@ -1,7 +1,7 @@
 <template>
   <div class="footer-container">
     <div class="footer-items">
-      <h2>About Us</h2>
+      <h2><b>About Us</b></h2>
       <ul>
         <li> <a href="#" target="_blank"> Giving Back</a>  </li>
         <li> <a href="#" target="_blank"> Careers </a>  </li>
