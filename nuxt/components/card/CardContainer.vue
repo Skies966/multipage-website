@@ -12,7 +12,7 @@
     </div>
     <div class="products-area-logo">
       <img src="" alt="">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ullam?</p>
+      <p>Put references here (Jason)</p>
     </div>
   </div>
 </template>
