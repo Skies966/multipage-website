@@ -1,7 +1,7 @@
 <template>
   <div class="card-container-body">
     <div class="products-area">
-      <h1>Lorem, ipsum dolor.</h1>
+      <h1>Take a look at what global warming is doing to our Earth!</h1>
     </div>
     <div class="card-container">
       <CardContainerContent v-for="x in products" :key="x.id" :product="x"
@@ -17,7 +17,7 @@
   </div>
 </template>
 
-<script setup>
+<script>
 // Place content here
  export default {
     data () {
@@ -69,6 +69,11 @@ font : 5rem;
 
 .products-area-logo {
 width: 100px;
+}
+.products-area {
+
+font-size:20px;
+
 }
 
 

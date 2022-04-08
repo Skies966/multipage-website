@@ -40,9 +40,9 @@
 <style>
 
 .HeroContentContainer {
-background-image: url("");
+
 display: flex;
-justify-content: start;
+justify-content: flex-start;
 align-items: center;
 text-align: center;
 width: 100%;

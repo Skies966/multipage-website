@@ -58,14 +58,13 @@
   .navbar-links .li {
     list-style: none;
     justify-content: space-between;
-  }
-
-  .navbar-links .li {
-    text-decoration: none;
+     text-decoration: none;
     color: white;
     padding:5px;
     
   }
+
+ 
   /* Hover  */
   .navbar-links .li:hover{
     color: blue;

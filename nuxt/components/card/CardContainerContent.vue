@@ -14,7 +14,7 @@
   </div>
 </template>
 
-<script setup>
+<script>
 export default {
     name: 'post',
     props: ['product'],
@@ -58,12 +58,18 @@ font-size: 20px;
 
 
 }
-button {
+.card-item-button {
 
 background-color: white;
 border-radius: 10px;
-width:20px;
+
 
 }
+.card-item-button:hover {
 
+background-color: lightgray;
+border-radius: 10px;
+color:blue;
+
+}
 </style>
