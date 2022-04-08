@@ -5,7 +5,7 @@
       <img :src="product.src" class="card-item-image">
     </div>
     <div class="card-item-bottom">
-      <h3 class="card-item-title"> {{product.title}}</h3>
+      <h3 class="card-item-title"><b> {{product.title}} </b></h3>
       <p class="card-item-text">{{product.bgtext}}</p>
       <a v-bind:href= product.page>
         <button class="card-item-button" > {{product.button}}  </button>
@@ -14,7 +14,7 @@
   </div>
 </template>
 
-<script setup>
+<script>
 export default {
     name: 'post',
     props: ['product'],
@@ -53,6 +53,23 @@ export default {
   display: block;
   width: 100%;
 }
+.card-item-title {
+font-size: 20px;
 
 
+}
+.card-item-button {
+
+background-color: white;
+border-radius: 10px;
+
+
+}
+.card-item-button:hover {
+
+background-color: lightgray;
+border-radius: 10px;
+color:blue;
+
+}
 </style>

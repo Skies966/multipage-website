@@ -12,6 +12,9 @@
     <CardContainer>
     </CardContainer>
 
+    <AttributionsList>
+    </AttributionsList>
+
     <TheFooter>
     </TheFooter>
   </div>

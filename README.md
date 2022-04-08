@@ -27,7 +27,7 @@
 
 [Content]- Jason
 
-[Component]- 
+[Component]- Edgar
 
 [Style]- Skies (regular css)
 
