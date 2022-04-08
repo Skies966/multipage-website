@@ -1,8 +1,8 @@
 <template>
     <div class="navbar">
         <a class="index" href="#">Home</a>
-        <a class="animal" href="#">animal</a>
-        <a class="support" href="#">support</a>
+        <a class="animal" href="#">Animals</a>
+        <a class="support" href="#">Support</a>
         </div>
 </template>
 
