@@ -83,6 +83,6 @@ img {
 .attributions{
 
 text-align: center;
-
+font-size:12px;
 }
 </style>

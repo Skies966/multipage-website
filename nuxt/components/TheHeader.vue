@@ -39,6 +39,7 @@
   }
   .brand-title-item {
     display: flex;
+    font-size:25px;
   }
 
   .brand-title img {
