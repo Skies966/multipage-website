@@ -1,5 +1,7 @@
 # Planning of group project:
 
+## Team Members: Jason Yeske. Edgar Caballero, Hyeju Hong, Erik Parlo
+
 ## Rules:
 
 1. Listening each other.
